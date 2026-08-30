@@ -1,0 +1,329 @@
+{
+ "generatedAt": "2026-08-30T14:48:12.803Z",
+ "birds": [
+  {
+   "id": "nightingale",
+   "zh": "新疆歌鸲（夜莺）",
+   "en": "Common Nightingale",
+   "latin": "Luscinia megarhynchos",
+   "queries": [
+    "nightingale song",
+    "luscinia megarhynchos"
+   ],
+   "clips": [
+    {
+     "file": "/media/audio/birds/nightingale-1.mp3",
+     "title": "Nightingale 23",
+     "source": "https://freesound.org/people/qubodup/sounds/854987/",
+     "recordist": "qubodup"
+    },
+    {
+     "file": "/media/audio/birds/nightingale-2.mp3",
+     "title": "Nightingale NL engelermeer.wav",
+     "source": "https://freesound.org/people/qubodup/sounds/546295/",
+     "recordist": "qubodup"
+    },
+    {
+     "file": "/media/audio/birds/nightingale-3.mp3",
+     "title": "Bird, Thrush Nightingale 03.wav",
+     "source": "https://freesound.org/people/qubodup/sounds/365664/",
+     "recordist": "qubodup"
+    },
+    {
+     "file": "/media/audio/birds/nightingale-4.mp3",
+     "title": "Bird, Thrush Nightingale 02.wav",
+     "source": "https://freesound.org/people/qubodup/sounds/365663/",
+     "recordist": "qubodup"
+    },
+    {
+     "file": "/media/audio/birds/nightingale-5.mp3",
+     "title": "Bird, Thrush Nightingale 04.wav",
+     "source": "https://freesound.org/people/Garuda1982/sounds/365668/",
+     "recordist": "Garuda1982"
+    },
+    {
+     "file": "/media/audio/birds/nightingale-6.mp3",
+     "title": "Bird 07.wav",
+     "source": "https://freesound.org/people/Garuda1982/sounds/519108/",
+     "recordist": "Garuda1982"
+    }
+   ]
+  },
+  {
+   "id": "cuckoo",
+   "zh": "大杜鹃（布谷鸟）",
+   "en": "Common Cuckoo",
+   "latin": "Cuculus canorus",
+   "queries": [
+    "cuculus canorus song",
+    "common cuckoo call"
+   ],
+   "clips": [
+    {
+     "file": "/media/audio/birds/cuckoo-1.mp3",
+     "title": "CUCKOO - 1",
+     "source": "https://freesound.org/people/SamuelGremaud/sounds/517779/",
+     "recordist": "SamuelGremaud"
+    },
+    {
+     "file": "/media/audio/birds/cuckoo-2.mp3",
+     "title": "CUCKOO - 2",
+     "source": "https://freesound.org/people/SamuelGremaud/sounds/517781/",
+     "recordist": "SamuelGremaud"
+    },
+    {
+     "file": "/media/audio/birds/cuckoo-3.mp3",
+     "title": "CUCKOO - 3",
+     "source": "https://freesound.org/people/SamuelGremaud/sounds/517780/",
+     "recordist": "SamuelGremaud"
+    },
+    {
+     "file": "/media/audio/birds/cuckoo-4.mp3",
+     "title": "Cuckoo.wav",
+     "source": "https://freesound.org/people/SamuelGremaud/sounds/72699/",
+     "recordist": "SamuelGremaud"
+    },
+    {
+     "file": "/media/audio/birds/cuckoo-5.mp3",
+     "title": "CuckooinWoodsMay23rd2015.WAV",
+     "source": "https://freesound.org/people/SamuelGremaud/sounds/274771/",
+     "recordist": "SamuelGremaud"
+    },
+    {
+     "file": "/media/audio/birds/cuckoo-6.mp3",
+     "title": "Common hawk cuckoo bird at Nepal",
+     "source": "https://freesound.org/people/SamuelGremaud/sounds/699449/",
+     "recordist": "SamuelGremaud"
+    }
+   ]
+  },
+  {
+   "id": "blackbird",
+   "zh": "乌鸫",
+   "en": "Common Blackbird",
+   "latin": "Turdus merula",
+   "queries": [
+    "turdus merula song",
+    "blackbird dawn song"
+   ],
+   "clips": [
+    {
+     "file": "/media/audio/birds/blackbird-1.mp3",
+     "title": "Blackbird song, solo, Good quality, Forest South ...",
+     "source": "https://freesound.org/people/Francisco.Maia/sounds/725332/",
+     "recordist": "Francisco.Maia"
+    },
+    {
+     "file": "/media/audio/birds/blackbird-2.mp3",
+     "title": "marsh.mp3",
+     "source": "https://freesound.org/people/kiefspoon/sounds/470369/",
+     "recordist": "kiefspoon"
+    },
+    {
+     "file": "/media/audio/birds/blackbird-3.mp3",
+     "title": "marsh.m4a",
+     "source": "https://freesound.org/people/kiefspoon/sounds/470370/",
+     "recordist": "kiefspoon"
+    },
+    {
+     "file": "/media/audio/birds/blackbird-4.mp3",
+     "title": "Turdus merula.m4a",
+     "source": "https://freesound.org/people/kiefspoon/sounds/616503/",
+     "recordist": "kiefspoon"
+    },
+    {
+     "file": "/media/audio/birds/blackbird-5.mp3",
+     "title": "Turdus_merula_30.wav",
+     "source": "https://freesound.org/people/kiefspoon/sounds/189552/",
+     "recordist": "kiefspoon"
+    },
+    {
+     "file": "/media/audio/birds/blackbird-6.mp3",
+     "title": "Early spring city SHORT 011 200314_0119.wav",
+     "source": "https://freesound.org/people/Eelke/sounds/623609/",
+     "recordist": "Eelke"
+    }
+   ]
+  },
+  {
+   "id": "robin",
+   "zh": "欧亚鸲（知更鸟）",
+   "en": "European Robin",
+   "latin": "Erithacus rubecula",
+   "queries": [
+    "erithacus rubecula song",
+    "robin bird song"
+   ],
+   "clips": [
+    {
+     "file": "/media/audio/birds/robin-1.mp3",
+     "title": "marsh.mp3",
+     "source": "https://freesound.org/people/Sacha.Julien/sounds/470369/",
+     "recordist": "Sacha.Julien"
+    },
+    {
+     "file": "/media/audio/birds/robin-2.mp3",
+     "title": "marsh.m4a",
+     "source": "https://freesound.org/people/Sacha.Julien/sounds/470370/",
+     "recordist": "Sacha.Julien"
+    },
+    {
+     "file": "/media/audio/birds/robin-3.mp3",
+     "title": "robin 10.wav",
+     "source": "https://freesound.org/people/ERH/sounds/32331/",
+     "recordist": "ERH"
+    },
+    {
+     "file": "/media/audio/birds/robin-4.mp3",
+     "title": "Bird Whistling, Robin, Single, 13.wav",
+     "source": "https://freesound.org/people/ERH/sounds/456440/",
+     "recordist": "ERH"
+    },
+    {
+     "file": "/media/audio/birds/robin-5.mp3",
+     "title": "robin slown 10 times 456440.wav",
+     "source": "https://freesound.org/people/ERH/sounds/547831/",
+     "recordist": "ERH"
+    },
+    {
+     "file": "/media/audio/birds/robin-6.mp3",
+     "title": "Robin",
+     "source": "https://freesound.org/people/ERH/sounds/402381/",
+     "recordist": "ERH"
+    }
+   ]
+  },
+  {
+   "id": "greattit",
+   "zh": "大山雀",
+   "en": "Great Tit",
+   "latin": "Parus major",
+   "queries": [
+    "parus major song",
+    "great tit call"
+   ],
+   "clips": [
+    {
+     "file": "/media/audio/birds/greattit-1.mp3",
+     "title": "marsh.mp3",
+     "source": "https://freesound.org/people/GirlWithSoundRecorder/sounds/470369/",
+     "recordist": "GirlWithSoundRecorder"
+    },
+    {
+     "file": "/media/audio/birds/greattit-2.mp3",
+     "title": "marsh.m4a",
+     "source": "https://freesound.org/people/GirlWithSoundRecorder/sounds/470370/",
+     "recordist": "GirlWithSoundRecorder"
+    },
+    {
+     "file": "/media/audio/birds/greattit-3.mp3",
+     "title": "Magpies in the city 7.43 AM 230326_0571.wav",
+     "source": "https://freesound.org/people/acclivity/sounds/680478/",
+     "recordist": "acclivity"
+    },
+    {
+     "file": "/media/audio/birds/greattit-4.mp3",
+     "title": "Great tit and footsteps.wav",
+     "source": "https://freesound.org/people/acclivity/sounds/107833/",
+     "recordist": "acclivity"
+    },
+    {
+     "file": "/media/audio/birds/greattit-5.mp3",
+     "title": "great tit.WAV",
+     "source": "https://freesound.org/people/acclivity/sounds/53702/",
+     "recordist": "acclivity"
+    },
+    {
+     "file": "/media/audio/birds/greattit-6.mp3",
+     "title": "Rural soundscape snippet - 2024 05 24 Bouriège",
+     "source": "https://freesound.org/people/acclivity/sounds/737197/",
+     "recordist": "acclivity"
+    }
+   ]
+  }
+ ],
+ "whales": [
+  {
+   "id": "alpha",
+   "name": "Individual α · Alaska stock",
+   "region": "Alaska waters · winter feeding grounds",
+   "desc": "Low moans and sweeping up-down frequency sweeps; PMEL 1999 winter hydrophone array recordings.",
+   "source": "NOAA / PMEL Acoustics Program",
+   "clips": [
+    {
+     "file": "/media/audio/whales/alpha-1.wav",
+     "title": "Alaska humpback moans & pulse trains",
+     "sourceUrl": "https://pmel.noaa.gov/acoustics/whales/sounds/whalewav/akhumphi1x.wav"
+    },
+    {
+     "file": "/media/audio/whales/alpha-2.mp3",
+     "title": "Flipper slap with vocals · Glacier Bay",
+     "sourceUrl": "https://www.nps.gov/glba/learn/nature/upload/Humpback_whale_flipperslap_-_vocals_26Sep00-125018.mp3"
+    },
+    {
+     "file": "/media/audio/whales/alpha-3.mp3",
+     "title": "Wheeze-blow and vocalizations",
+     "sourceUrl": "https://www.nps.gov/glba/learn/nature/upload/Humpback_whale_wheezeblow_etc_20Sep01-1029.mp3"
+    }
+   ]
+  },
+  {
+   "id": "beta",
+   "name": "Individual β · Classic tropical song",
+   "region": "Tropical breeding grounds · song units",
+   "desc": "Structurally ordered breeding-season song phrases with melodic pitch contours.",
+   "source": "Ocean Mammal Institute · Songs of the Humpback Whale",
+   "clips": [
+    {
+     "file": "/media/audio/whales/beta-1.wav",
+     "title": "Humpback Song #1",
+     "sourceUrl": "http://www.oceanmammalinst.org/songs/hmpback1.wav"
+    },
+    {
+     "file": "/media/audio/whales/beta-2.wav",
+     "title": "Humpback Song #2",
+     "sourceUrl": "http://www.oceanmammalinst.org/songs/hmpback2.wav"
+    },
+    {
+     "file": "/media/audio/whales/beta-3.wav",
+     "title": "Humpback Song #3",
+     "sourceUrl": "http://www.oceanmammalinst.org/songs/hmpback3.wav"
+    },
+    {
+     "file": "/media/audio/whales/beta-4.wav",
+     "title": "Humpback Song #4",
+     "sourceUrl": "http://www.oceanmammalinst.org/songs/hmpback4.wav"
+    }
+   ]
+  },
+  {
+   "id": "gamma",
+   "name": "Individual γ · Glacier Bay mother & calf",
+   "region": "Glacier Bay National Park, Alaska · 2000–2020",
+   "desc": "Mother–calf contact calls (whup/moo) with fin slaps and tail beats; NPS long-term monitoring recordings.",
+   "source": "U.S. National Park Service · Glacier Bay",
+   "clips": [
+    {
+     "file": "/media/audio/whales/gamma-1.mp3",
+     "title": "Contact call — whup",
+     "sourceUrl": "https://www.nps.gov/glba/learn/nature/upload/Humpback_whale_whup_24Oct00-131753.mp3"
+    },
+    {
+     "file": "/media/audio/whales/gamma-2.mp3",
+     "title": "Contact call — moo",
+     "sourceUrl": "https://www.nps.gov/glba/learn/nature/upload/Humpback_whale_moo_etc_25Sep01-0840.mp3"
+    },
+    {
+     "file": "/media/audio/whales/gamma-3.mp3",
+     "title": "Mother / calf vocals 2020",
+     "sourceUrl": "https://www.nps.gov/glba/learn/nature/upload/06_22_2020_1700-1725a_vocals_snip1-AMPLIFIED.mp3"
+    },
+    {
+     "file": "/media/audio/whales/gamma-4.mp3",
+     "title": "Song with outboard engine",
+     "sourceUrl": "https://www.nps.gov/glba/learn/nature/upload/Humpback_whale_song_-_outboard_23Oct00-0909.mp3"
+    }
+   ]
+  }
+ ]
+}
