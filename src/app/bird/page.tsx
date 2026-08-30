@@ -25,7 +25,6 @@ export default function BirdPage() {
     <main className="relative min-h-screen">
       <VideoBackground
         srcA={media("/media/bird-a.mp4")}
-        srcB={media("/media/bird-b.mp4")}
         poster={media("/media/poster-bird.jpg")}
         tone="forest"
         dim={0.55}
