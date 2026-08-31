@@ -28,7 +28,6 @@ export default function WhalePage() {
         poster={media("/media/poster-whale.jpg")}
         tone="ocean"
         dim={0.6}
-        mode="once"
       />
 
       <PageHero
