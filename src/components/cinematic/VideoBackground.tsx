@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 
 interface VideoBackgroundProps {
-  /** Primary clip. In 'once' mode it plays to the end, holds the final frame, then replays. */
+  /** Primary clip. In 'once' mode it plays to the end, fades to black, holds, then replays. */
   srcA: string;
   /** Secondary clip for crossfade looping (ignored in 'once' mode). */
   srcB?: string;
@@ -14,7 +14,7 @@ interface VideoBackgroundProps {
   dim?: number;
   /**
    * 'loop' (default): A/B clips crossfade into a seamless loop.
-   * 'once': play A once, hold the last frame for a few seconds, then replay.
+   * 'once': play A once, fade to a black breath, then replay from the top.
    */
   mode?: 'loop' | 'once';
 }
@@ -28,7 +28,8 @@ interface Particle {
   opacity: number;
 }
 
-const HOLD_MS = 5000;
+/** How long the black breath holds between replays in 'once' mode. */
+const HOLD_MS = 1200;
 
 export function VideoBackground({ srcA, srcB, poster, tone = 'ocean', dim = 0.55, mode = 'loop' }: VideoBackgroundProps) {
   const [loaded, setLoaded] = useState(false);
@@ -58,7 +59,7 @@ export function VideoBackground({ srcA, srcB, poster, tone = 'ocean', dim = 0.55
 
   const handleAEnded = () => {
     if (!once) return;
-    // Freeze on the final frame, then replay from the top.
+    // Fade to a black breath, then replay from the top.
     setHeld(true);
     holdTimerRef.current = setTimeout(() => {
       const video = videoARef.current;
@@ -74,23 +75,21 @@ export function VideoBackground({ srcA, srcB, poster, tone = 'ocean', dim = 0.55
 
   return (
     <div className="fixed inset-0 -z-10 overflow-hidden" aria-hidden>
-      {/* Animated poster layer (Ken Burns slow push) shown until the video is ready,
-          and as the static hold frame in 'once' mode. */}
+      {/* Animated poster layer (Ken Burns slow push) shown only until the video is ready. */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={poster}
         alt=""
         className="absolute inset-0 h-full w-full object-cover"
         style={{
-          opacity: loaded && !held ? 0 : 1,
+          opacity: loaded ? 0 : 1,
           transition: 'opacity 1.6s ease',
-          // Ken Burns drift only while the video has never loaded;
-          // the 'once' hold frame stays perfectly static.
+          // Ken Burns drift only while the video has never loaded.
           animation: loaded ? undefined : 'kenBurns 26s ease-in-out infinite alternate',
         }}
       />
-      {/* Mist drift layers while the poster is visible */}
-      {(!loaded || held) && (
+      {/* Mist drift layers only while the poster is visible */}
+      {!loaded && (
         <>
           <div
             className="absolute inset-0"
@@ -129,6 +128,7 @@ export function VideoBackground({ srcA, srcB, poster, tone = 'ocean', dim = 0.55
           if (videoARef.current) videoARef.current.style.display = 'none';
         }}
         ref={videoARef}
+        style={{ opacity: once && held ? 0 : 1, transition: 'opacity 0.5s ease' }}
       />
       {srcB && !once && (
         <video
@@ -186,6 +186,12 @@ export function VideoBackground({ srcA, srcB, poster, tone = 'ocean', dim = 0.55
           />
         ))}
       </div>
+
+      {/* Black breath layer (topmost): visible only between replays in 'once' mode */}
+      <div
+        className="absolute inset-0 bg-black"
+        style={{ opacity: once && held ? 1 : 0, transition: 'opacity 0.5s ease' }}
+      />
     </div>
   );
 }

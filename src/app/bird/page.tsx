@@ -28,6 +28,7 @@ export default function BirdPage() {
         poster={media("/media/poster-bird.jpg")}
         tone="forest"
         dim={0.55}
+        mode="once"
       />
 
       <PageHero
